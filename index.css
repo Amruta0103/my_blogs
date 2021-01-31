@@ -2,11 +2,16 @@
   margin: 0px;
 }
 .header{
-  background-color:coral;
-  color:white;
+  background-color:rgb(80, 255, 211);
+  color: black;
+  padding: 1rem;
+}
+.title{
+  display: inline;
 }
 .head-options-block{
   text-align: right;
+  display: inline;
 }
 .head-list{
   list-style-type: none;
@@ -16,8 +21,12 @@
   padding: 1rem;
 }
 .head-list-items-links{
-  color:white;
+  color: black;
   text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  box-shadow: 0.4rem 0.4rem rgba(0, 0, 0,0.5);
 }
 
 .blogs-main-block{
@@ -25,7 +34,7 @@
   margin: auto;
 }
 .blogs-sub-block{
-  border: 2px solid coral;
+  border: 2px solid ;
   border-radius: 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
@@ -33,12 +42,37 @@
   margin-right: auto;
   height: 50vh;
   max-width: 500px;
+  box-shadow: 0.4rem 0.4rem rgba(0, 0, 0,0.5);
 }
-
+.image-parts{
+  display:inline;
+}
+.image-btn{
+  background-color: rgb(80, 255, 211);
+}
+.image-box{
+  width: 400px;
+  height:40vh;
+  border: 1px solid vlack;
+}
+.blogs-list{
+  list-style-type: none;
+  padding:auto;
+  margin:auto;
+  padding-inline-start: 0px;
+}
+.blogs-list-items{
+  padding: 0.5rem;
+}
+.blogs-list-items-links{
+  color:black;
+  text-decoration: none;
+}
 .footer{
-  background-color: coral;
-  color: white;
+  background-color: rgb(80, 255, 211);
+  color: black;
   text-align: center;
+  padding: 1rem;
 }
 .footer-list-items{
   display: inline;
