@@ -64,6 +64,7 @@
   padding-inline-start: 0px;
   display: flex;
   margin:auto;
+  border: 1px solid black;
 }
 .image-parts{
   justify-content: center;
@@ -73,10 +74,16 @@
 .image-btn{
   margin: auto;
   cursor: pointer;
+  opacity: 60%;
+  background-color: white;
+  border: none;
 }
 .image-box{
+  vertical-align: middle;
+  position: relative;
   display: none;
-  margin:auto;
+  margin: auto;
+  height: 500px;
 }
 .footer{
   background-color: rgb(80, 255, 211);
