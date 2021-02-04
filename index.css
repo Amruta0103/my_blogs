@@ -30,7 +30,6 @@
 }
 
 .blogs-main-block{
-  /* display:; */
   text-align: center;
   margin: auto;
   vertical-align: middle;
@@ -62,28 +61,21 @@
 .image-main{
   list-style-type: none;
   padding-inline-start: 0px;
-  display: flex;
-  margin:auto;
-  border: 1px solid black;
-}
-.image-parts{
-  justify-content: center;
-  vertical-align: middle;
-  margin:auto;
-}
-.image-btn{
-  margin: auto;
-  cursor: pointer;
-  opacity: 60%;
-  background-color: white;
-  border: none;
+  display: inline;
+  flex-wrap: wrap;
+  margin: 0.1rem;
+  align-content: center;
 }
 .image-box{
+  display:inline-block;
   vertical-align: middle;
-  position: relative;
-  display: none;
-  margin: auto;
-  height: 500px;
+  align-self: center;
+  margin: 0.1rem;
+  padding: 0.3rem;
+  /* border: 1px solid; */
+}
+.image-box:hover {
+  transform: scale(1.2);
 }
 .footer{
   background-color: rgb(80, 255, 211);
