@@ -2,11 +2,14 @@
 .body{
   margin: 0px;
   font-family: 'Source Sans Pro', sans-serif;
+  background-image: linear-gradient(to right, rgb(193, 86, 255) , rgb(88, 255, 163));
 }
 .header{
-  background-color:rgb(80, 255, 211);
+  border: 1px solid black;
+  border-radius: 3rem;
   color: black;
   padding: 1rem;
+  margin: 0.5rem;
 }
 .title{
   text-align: center;
@@ -18,13 +21,13 @@
   font-weight: 900;
   color: black;
   margin: 0px;
-  text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1);
+  /* text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1); */
 }
 .titlep{
   color: black;
   font-weight: 700;
   margin: 0px;
-  text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1);
+  /* text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1); */
 }
 .head-options-block{
   text-align: right;
@@ -105,17 +108,18 @@
   color:black;
   font-weight: 600;
   text-decoration: none;
-  padding: 0.5rem;
-  border: 3px solid rgb(80, 255, 211);
+  padding: 0.1rem;
   border-radius: 1rem;
+  border: 1px solid black;
 }
 .footer{
+  align-content: center;
   text-align: center;
-  background-color: rgb(80, 255, 211);
   color: black;
   text-align: center;
-  text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1);
-  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 3rem;
+  margin:auto auto 0.5rem auto;
 }
 .footer-list-items{
   display: inline;
@@ -124,10 +128,8 @@
   padding: 0.5rem 1.5rem 0.5rem 1.5rem;
   margin: 0.5rem 1.5rem 0.5rem 1.5rem;
   text-decoration: none;
+  /* background-color:; */
   color: black;
   font-weight: 600;
-  border: 1px solid white;
-  border-radius: 50%;
-  background-color: white;
-  box-shadow: 0.4rem 0.4rem rgba(0, 0, 0,0.5);
+  font-size: 35px;
 }
