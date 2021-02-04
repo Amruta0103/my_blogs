@@ -9,7 +9,22 @@
   padding: 1rem;
 }
 .title{
-  display: inline;
+  text-align: center;
+  display: inline-block;
+  width:200px;
+  height:60px;
+}
+.titlen{
+  font-weight: 900;
+  color: black;
+  margin: 0px;
+  text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1);
+}
+.titlep{
+  color: black;
+  font-weight: 700;
+  margin: 0px;
+  text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1);
 }
 .head-options-block{
   text-align: right;
@@ -99,6 +114,7 @@
   background-color: rgb(80, 255, 211);
   color: black;
   text-align: center;
+  text-shadow: 0.1rem 0.1rem rgba(255, 255, 255, 1);
   padding: 1rem;
 }
 .footer-list-items{
