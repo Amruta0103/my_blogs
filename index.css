@@ -2,7 +2,7 @@
 .body{
   margin: 0px;
   font-family: 'Source Sans Pro', sans-serif;
-  background-image: linear-gradient(to right, rgb(193, 86, 255) , rgb(88, 255, 163));
+  background-image: linear-gradient(to right,rgb(255, 255, 255), rgb(255, 224, 49));
 }
 .header{
   border: 1px solid black;
