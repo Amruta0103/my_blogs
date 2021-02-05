@@ -1,0 +1,64 @@
+#paper {
+  width: 850px;
+  max-height: 1100px;
+  margin: 20px auto 0px auto;
+  background-color: white;
+  box-shadow: 0px 0px 5px 0px #888;
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+#paper::before {
+  content: '';
+  width: 2px;
+  height: 100%;
+  background-color: rgba(255,0,0,0.6);
+  position: absolute;
+  top: 0rem;
+  left: 4rem;
+}
+#pattern {
+  height: fit-content;
+  background-image: repeating-linear-gradient(white 0px, white 24px, rgb(0, 0, 0) 25px);
+}
+#content{
+  padding-top: 0.3rem;
+  padding-left: 5rem;
+  padding-right: 1rem;
+  line-height: 1.57rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 19px;
+  letter-spacing: 1px;
+  word-spacing: 5px;
+}
+.head{
+  height: 5rem;
+  width:auto;
+  padding:0.5rem;
+}
+.date{
+  margin: auto 1rem auto auto;
+  text-align: center;
+  height:15px;
+  width:90px;
+  border: 1px solid black;
+}
+.title{
+  margin:0.5rem auto 0.5rem auto;
+  text-align: center;
+  height:40px;
+  width:200px;
+  border: 1px solid black;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
+  padding:0.3rem;
+}
+.space{
+  height:30px;
+  width:100px;
+  border: 1px solid black;
+}
+.last{
+  height:30px;
+  width:auto; 
+}
