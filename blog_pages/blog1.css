@@ -3,7 +3,7 @@
   font-family: 'Mali',cursive;
   text-align: center;
   margin: auto;
-  background-color: rgb(241, 241, 241);
+  background-color: white;
   padding: 1px 1px 1px 1px;
 }
 #paper {
@@ -70,13 +70,13 @@
     font-family: 'Mali',cursive;
     text-align: center;
     margin: auto;
-    background-color: rgb(136, 136, 136);
+    background-color: white;
     padding: 1px 1px 1px 1px;
   }
   #paper {
     width:400px;
     max-height: 1700px;
-    margin: 5px;
+    margin: 5px 5px 5px 5px;
     background-color: rgb(222, 194, 154);
     box-shadow: 1px 1px 5px 1px rgb(136, 136, 136);
     position: relative;
