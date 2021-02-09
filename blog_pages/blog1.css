@@ -9,7 +9,7 @@
 #paper {
   display: block;
   width:700px;
-  max-height: 900px;
+  max-height: 100%;
   margin: 20px auto 20px auto;
   background-color: rgb(221, 194, 154);
   box-shadow: 1px 1px 5px 1px rgb(136, 136, 136);
@@ -38,7 +38,7 @@
   margin:1rem;
 }
 .head{
-  height: 70px;
+  height: 100px;
   width:auto;
   padding:0.5rem;
 }
@@ -60,6 +60,14 @@
   font-size: 30px;
   padding: 0.5rem;
 }
+.title-sub{
+  margin-left:6rem;
+  text-align: center;
+  height: 25px;
+  width:550px;
+  font-family: 'Mali', cursive;
+  font-size: 20px;
+}
 .last{
   height:30px;
   width:auto; 
@@ -75,7 +83,7 @@
   }
   #paper {
     width:400px;
-    max-height: 1700px;
+    max-height: 100%;
     margin: 5px 5px 5px 5px;
     background-color: rgb(222, 194, 154);
     box-shadow: 1px 1px 5px 1px rgb(136, 136, 136);
@@ -104,7 +112,7 @@
     margin:1rem;
   }
   .head{
-    height: 5rem;
+    height: 6rem;
     width:auto;
     padding:0.5rem;
   }
@@ -117,13 +125,22 @@
     font-size: 14px;
   }
   .title{
-    margin:0.5rem auto 0.5rem auto;
     text-align: center;
     height: 35px;
     width: auto;
     font-family: 'Mali', cursive;
     font-size: 25px;
-    padding-left: 4rem;
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+  .title-sub{
+    text-align: center;
+    height: 25px;
+    width: auto;
+    font-family: 'Mali', cursive;
+    font-size: 15px;
+    margin-left: 4rem;
+    margin-right: 1rem; 
   }
   .last{
     height:30px;
