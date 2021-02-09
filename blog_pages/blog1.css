@@ -52,6 +52,7 @@
   left: 4rem;
 }
 #content{
+  text-align: left;
   padding-top: 0.3rem;
   padding-left: 5rem;
   padding-right: 1rem;
@@ -151,6 +152,7 @@
     left: 3rem;
   }
   #content{
+    text-align: left;
     padding-top: 0.3rem;
     padding-left: 3rem;
     padding-right: 1rem;
