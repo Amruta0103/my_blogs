@@ -6,6 +6,31 @@
   background-color: white;
   padding: 1px 1px 1px 1px;
 }
+.header{
+  width: auto;
+  height: 3rem;
+  padding: 0.5rem;
+  background-color: rgb(255, 224, 49);
+}
+.head-options-block{
+  text-align: right;
+  display: inline;
+}
+.head-list{
+  list-style-type: none;
+  margin-block-end: 0px;
+}
+.head-list-items{
+  display: inline;
+  padding: 1rem;
+}
+.head-list-items-link{
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 50%;
+}
 #paper {
   display: block;
   width:700px;
@@ -77,9 +102,34 @@
   .body{
     font-family: 'Mali',cursive;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
     background-color: white;
     padding: 1px 1px 1px 1px;
+  }
+  .header{
+    width: 400px;
+    height: 3rem;
+    padding: 0.5rem;
+    background-color: rgb(255, 224, 49);
+  }
+  .head-options-block{
+    text-align: right;
+    display: inline;
+  }
+  .head-list{
+    list-style-type: none;
+    margin-block-end: 0px;
+  }
+  .head-list-items{
+    display: inline;
+    padding: 1rem;
+  }
+  .head-list-items-link{
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-radius: 50%;
   }
   #paper {
     width:400px;
