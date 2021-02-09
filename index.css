@@ -102,18 +102,12 @@
 .blogs-list-items{
   padding: 1rem;
 }
-.blogs-list-items-title{
-  padding: 1rem;
-  margin:auto;
-  text-align: center;
-}
-.blogs-list-items-links{
+.blogs-list-links{
   color:black;
+  font-size: 1.3rem;
   font-weight: 600;
   text-decoration: none;
-  padding: 0.1rem;
-  border-radius: 1rem;
-  border: 1px solid black;
+  padding: 0.5rem;
 }
 .footer{
   align-content: center;
