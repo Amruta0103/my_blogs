@@ -94,6 +94,10 @@
   font-family: 'Mali', cursive;
   font-size: 20px;
 }
+.blog-img{
+  margin: auto;
+  padding: 0.5rem;
+}
 .last{
   height:30px;
   width:auto; 
