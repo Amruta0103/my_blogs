@@ -94,9 +94,9 @@
   font-family: 'Mali', cursive;
   font-size: 20px;
 }
-.blog-img{
-  margin: auto;
-  padding: 0.5rem;
+.blog-media{
+  max-width: 400px;
+  max-height: 300px;
 }
 .last{
   height:30px;
@@ -168,7 +168,7 @@
     margin:1rem;
   }
   .head{
-    height: 6rem;
+    height: 100%;
     width:auto;
     padding:0.5rem;
   }
@@ -182,7 +182,7 @@
   }
   .title{
     text-align: center;
-    height: 35px;
+    height: 50px;
     width: auto;
     font-family: 'Mali', cursive;
     font-size: 25px;
@@ -197,6 +197,10 @@
     font-size: 15px;
     margin-left: 4rem;
     margin-right: 1rem; 
+  }
+  .blog-media{
+    max-width: 300px;
+    max-height: 200px;
   }
   .last{
     height:30px;

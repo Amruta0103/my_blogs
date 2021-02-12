@@ -100,14 +100,14 @@
   padding-inline-start: 0px;
 }
 .blogs-list-items{
-  padding: 1rem;
+  margin: 1rem;
 }
 .blogs-list-links{
   color:black;
   font-size: 1.3rem;
   font-weight: 600;
   text-decoration: none;
-  padding: 0.5rem;
+  padding: 1rem;
 }
 .footer{
   align-content: center;
