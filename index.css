@@ -67,6 +67,25 @@
   margin: auto;
   text-align:center;
 }
+.blogs-list{
+  list-style-type: none;
+  padding: 1rem auto 1rem auto;
+  margin: 1rem;
+  padding-inline-start: 0px;
+}
+.blogs-list-items{
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.blogs-list-links{
+  color:black;
+  font-size: x-large;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.2rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+}
 .topic-header{
   border: 1px solid black;
   border-radius: 50%;
@@ -93,22 +112,7 @@
 .image-box:hover {
   transform: scale(1.2);
 }
-.blogs-list{
-  list-style-type: none;
-  padding:auto;
-  margin:auto;
-  padding-inline-start: 0px;
-}
-.blogs-list-items{
-  margin: 1rem;
-}
-.blogs-list-links{
-  color:black;
-  font-size: 1.3rem;
-  font-weight: 600;
-  text-decoration: none;
-  padding: 1rem;
-}
+
 .footer{
   align-content: center;
   text-align: center;
